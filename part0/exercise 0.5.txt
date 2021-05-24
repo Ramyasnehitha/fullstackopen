@@ -5,7 +5,7 @@ server-->browser: main.css
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa.js
 server-->browser: spa.js
 
-note over browser:
+note over the browser:
 browser starts executing JS code
 requesting JSON data from server 
 end note
@@ -13,7 +13,7 @@ end note
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
 server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
 
-note over browser:
+note over the browser:
 browser executes event handler
 rendering notes to display
 end note
