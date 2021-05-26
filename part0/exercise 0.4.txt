@@ -7,14 +7,14 @@ end note
 
 browser->server: HTTP POST http://fullstack-exampleapp.herokuapp.com/notes
 
-note left of the server
+note left of server
    server receives user request
    to write note to database
 end note
 
 server->browser: URL redirect to https://fullstack-exampleapp.herokuapp.com/notes
 
-note right of the browser
+note right of browser
     server writes note to database
     and browser reloads Notes page
 end note
@@ -26,7 +26,7 @@ server-->browser: main.css
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
 server-->browser: main.js
 
-note over the browser:
+note over browser:
     browser starts executing JS code
     requesting JSON data from server 
 end note
@@ -34,7 +34,7 @@ end note
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
 server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
 
-note over the browser:
+note over browser:
     browser executes event handler
     rendering notes to display
 end note
