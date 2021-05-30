@@ -1,34 +1,7 @@
 import './App.css';
 import React, { useState} from 'react'
 
-const Header = (props) => {
-  return (
-    <div>
-      <h1> {props.course}</h1>
-    </div>
-  )
-}
-const Part = (props) => {
-  return (
-    <div>
-      <p>{props.part} {props.exercises}</p>
-    </div>
-  )
-}
-const Content = (props) => {
-  return (
-    <div>
-     <Part part={props.name} exercises={props.exercises}/>
-    </div>
-  )
-}
-const Total = (props) => {
-  return (
-    <div>
-      <p>Number of exercices {props.exercise}</p>
-    </div>
-  )
-}
+
 function App({anecdotes}) {
     const [selected, setSelected] = useState(0);
 
