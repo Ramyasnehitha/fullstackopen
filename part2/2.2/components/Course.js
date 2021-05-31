@@ -7,11 +7,11 @@ import React from 'react'
   }
   
   const Total = ({ course }) => {
-    const sum = course.parts.reduce((sum, part) => sum + part.exercises, 0)
-    return(
-      <p><b>total of {sum} exercises</b></p>
-    ) 
-  }
+    const sum = course.parts[0].exercises + course.parts[1].exercises + course.parts[2].exercises + course.parts[0].exercises
+    return (
+        <strong>total of {sum} exercises</strong>
+    )
+}
   
   const Part = ({ part }) => {
     return (
