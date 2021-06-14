@@ -1,7 +1,7 @@
 {
-  "name": "fullstack-open-2020-part3",
+  "name": "part3",
   "version": "1.0.0",
-  "description": "fullstack open course 2020 part 3",
+  "description": "part 3",
   "main": "index.js",
   "scripts": {
     "build:ui": "rm -rf build && cd ../fullstack-open-2020/part3/frontend && npm run build --prod && cp -r build ../../../fullstack-open-2020-part3",
@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "author": "Mayuri",
+  "author": "Ramya",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
