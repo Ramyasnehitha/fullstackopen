@@ -1,7 +1,7 @@
 {
-  "name": "part3",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "part 3",
+  "description": "backend",
   "main": "index.js",
   "scripts": {
     "build:ui": "rm -rf build && cd ../fullstack-open-2020/part3/frontend && npm run build --prod && cp -r build ../../../fullstack-open-2020-part3",
